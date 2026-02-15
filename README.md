@@ -27,14 +27,14 @@ Label Values
 - Fat: 4.5g
 - Carbohydrates: 16g
   - Fiber: 2g
-- Protein: <1g -> Counted as 1g
+- Protein: <1g → Counted as 1g
 
 Macro Calorie Calculation
 
-- Fat -> 4.5 x 9 = 40.5
-- Carbs -> 16 x 4 = 64
-- Protein -> 1 x 4 = 4
-- Fiber -> 2 x 4 = 8
+- Fat → 4.5 x 9 = 40.5
+- Carbs → 16 x 4 = 64
+- Protein → 1 x 4 = 4
+- Fiber → 2 x 4 = 8
 
 `True Calories = (40.5 + 64 + 4) - 8 = 100.5 kcal`
 
