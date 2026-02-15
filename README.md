@@ -48,9 +48,9 @@ Result
 
 If you track calories for fat loss, maintenance, or muscle gain, small label inaccuracies add up fast—especially for foods you eat every day.
 
-- More accurate tracking: Logging the macro-calculated calories gives you a number based on actual nutrients, not a rounded label value.
-- Spot problem foods: Some items consistently come in higher than listed. This helps you identify them and adjust portions if needed.
-- Break through plateaus: When progress stalls, hidden calories are often the reason. This lets you verify your intake without guessing.
-- Consistency over time: Even a 10–20 calorie difference per serving can turn into hundreds of calories per week.
+- **More accurate tracking**: Logging the macro-calculated calories gives you a number based on actual nutrients, not a rounded label value.
+- **Spot problem foods**: Some items consistently come in higher than listed. This helps you identify them and adjust portions if needed.
+- **Break through plateaus**: When progress stalls, hidden calories are often the reason. This lets you verify your intake without guessing.
+- **Consistency over time**: Even a 10–20 calorie difference per serving can turn into hundreds of calories per week.
 
 This isn’t about obsessing over every gram, it’s about having a quick way to validate your high-frequency foods so your data matches your results.
