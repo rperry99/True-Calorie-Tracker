@@ -1,4 +1,4 @@
-# True Calorie Calculator
+# Calorie Audit
 
 Nutrition labels aren't always exact. In many regions, manufacturers are allowed a margin of error of up to ±20% on listed calories.
 
