@@ -11,25 +11,25 @@
       <h1>True Calories</h1>
     </div>
     <div class="calcCont">
-      <form>
+      <form id="calcForm">
         <label for="calories">Calories</label>
-        <input type="number" name="calories" id="calories" />
+        <input type="number" name="calories" id="calories" step="0.1" />
         <label for="fat">Total Fat (in grams)</label>
-        <input type="number" name="fat" id="fat" />
+        <input type="number" name="fat" id="fat" step="0.1" />
         <label for="carbs">Total Carbohydrates (in grams)</label>
-        <input type="number" name="carbs" id="carbs" />
+        <input type="number" name="carbs" id="carbs" step="0.1" />
         <label for="protein">Protein (in grams)</label>
-        <input type="number" name="protein" id="protein" />
+        <input type="number" name="protein" id="protein" step="0.1" />
         <label for="fiber">Dietary Fiber (in grams)</label>
-        <input type="number" name="fiber" id="fiber" />
-        <button class="calcBtn">Calculate</button>
+        <input type="number" name="fiber" id="fiber" step="0.1" />
+        <button type="submit" class="calcBtn">Calculate</button>
       </form>
       <div class="output">
         <div class="outputData">
           Calories: <span id="labelCals">90</span> kcal
         </div>
         <div class="outputData">
-          Total Calories: <span id="totalCal">100.5</span>
+          Total Calories: <span id="totalCals">100.5</span>
         </div>
         <div class="outputData">
           Difference: <span id="calDiff">+ 10.5</span> kcal
