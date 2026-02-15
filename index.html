@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>True Calorie Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <h1>True Calories</h1>
+    </div>
+    <div class="calcCont">
+      <form>
+        <label for="calories">Calories</label>
+        <input type="number" name="calories" id="calories" />
+        <label for="fat">Total Fat (in grams)</label>
+        <input type="number" name="fat" id="fat" />
+        <label for="carbs">Total Carbohydrates (in grams)</label>
+        <input type="number" name="carbs" id="carbs" />
+        <label for="protein">Protein (in grams)</label>
+        <input type="number" name="protein" id="protein" />
+        <label for="fiber">Dietary Fiber (in grams)</label>
+        <input type="number" name="fiber" id="fiber" />
+        <button class="calcBtn">Calculate</button>
+      </form>
+      <div class="output">
+        <div class="outputData">
+          Calories: <span id="labelCals">90</span> kcal
+        </div>
+        <div class="outputData">
+          Total Calories: <span id="totalCal">100.5</span>
+        </div>
+        <div class="outputData">
+          Difference: <span id="calDiff">+ 10.5</span> kcal
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
