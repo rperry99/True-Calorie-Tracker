@@ -59,19 +59,36 @@ body {
   margin-bottom: 20px;
 }
 
+/* Buttons */
+.buttonGroup {
+  display: flex;
+  width: 100%;
+  gap: 0.75rem;
+}
+
 button {
   background: #3faf7a;
-  color: #111;
+  color: white;
   border: none;
   padding: 12px;
   font-weight: bold;
   cursor: pointer;
   margin-top: 25px;
   text-transform: uppercase;
+  flex: 3;
 }
 
 button:hover {
   background: #329666;
+}
+
+button.clearBtn {
+  background: #6c757d;
+  flex: 1;
+}
+
+button.clearBtn:hover {
+  background: #5c636a;
 }
 
 /* Output */
