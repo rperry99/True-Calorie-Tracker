@@ -9,6 +9,7 @@ const form = document.getElementById("calcForm");
 const labelCals = document.getElementById("labelCals");
 const totalCals = document.getElementById("totalCals");
 const calDiff = document.getElementById("calDiff");
+const clearBtn = document.getElementById("clear-btn");
 
 // Submit form
 form.addEventListener("submit", (e) => {
@@ -27,8 +28,15 @@ form.addEventListener("submit", (e) => {
     inputFat,
     inputCarbs,
     inputProtein,
-    inputFiber
+    inputFiber,
   );
+});
+
+// Add functionality to clear button
+clearBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  clearForm();
+  console.log("Form Cleared");
 });
 
 // Do the Math & Update Text
@@ -58,4 +66,13 @@ function calculateCalories(cals, fat, carbs, protein, fiber) {
   labelCals.innerText = cals;
   totalCals.innerText = totalCalculatedCalories;
   calDiff.innerText = diffOutput;
+}
+
+// Clear the form
+function clearForm() {
+  document.getElementById("calories").value = "";
+  document.getElementById("fat").value = "";
+  document.getElementById("carbs").value = "";
+  document.getElementById("protein").value = "";
+  document.getElementById("fiber").value = "";
 }
